@@ -1,5 +1,5 @@
 # **Product Entity Text Extraction from Images**
-This project was our submission to the Amazon ML Challenge 2024. We secured 209th place out of around 75,000 participants from all over India and we ranked 9th across all Vellore Institute of Technology campuses.
+This project was our submission to the Amazon ML Challenge 2024. We secured [209th](https://unstop.com/hackathons/amazon-ml-challenge-amazon-1100713/coding-challenge/200089) place out of around 75,000 participants from all over India and we ranked 9th across all Vellore Institute of Technology campuses.
 
 It demonstrates an approach to extract key product attributes (such as weight, dimensions, and volume) from images using advanced OCR (Optical Character Recognition) techniques, entity extraction, and unit normalization.
 
@@ -18,4 +18,28 @@ The solution focuses on:
 ## **Dataset**
 The input dataset is a CSV file containing image URLs and expected entity names (e.g., `item_weight`, `item_volume`,`wattage` etc.). The script processes each image, extracts relevant text, and matches it to the specified entity. The datasets we used for the final submission are placed inside the `test_datasets` folder. 
 
-**NOTE: The datasets contain a large amount of data, and will take anywhere from 4 to 9 hours to successfully compile. Also make sure you turn on GPU T4 X2 while the compilation is in progress.**
+**NOTE: The datasets contain a large amount of data, and will take anywhere from 4 to 9 hours to successfully compile. Also make sure you turn on GPU T4 X2 in Kaggle while the compilation is in progress.**
+## **ML Model Used**
+The core machine learning model used in this solution is PaddleOCR, known for its high accuracy in text recognition across various image formats and orientations. Key features include:
+
+- **Angle Detection**: Ensures text at varying angles is correctly identified.
+- **Precision and Adaptability**: Handles text in diverse product images, including small or rotated text.
+
+## **Output**
+After processing, the results are saved to a CSV file with columns:
+
+- index: The index of the image in the input CSV.
+- predicted_value: The predicted value of the entity (e.g., `500 grams`, `12 inches`).
+
+## **Experiment Details**
+- **OCR**: PaddleOCR's angle detection ensures text from rotated or skewed images is properly extracted.
+- **Unit Normalization**: Extracted units are normalized to match the expected format (e.g., oz to ounce, kg to kilogram).
+- **Model**: The solution is based on the PaddleOCR model, optimized with image enhancement techniques.
+
+## **Conclusion**
+This project demonstrates how effective image preprocessing and OCR can be for extracting meaningful product information from images, especially in e-commerce and other data-rich industries. It highlights the power of combining advanced image processing, machine learning, and rule-based approaches.  
+
+
+
+
+
