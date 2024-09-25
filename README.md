@@ -1,5 +1,6 @@
 # **Product Entity Extraction from Images**
 This project was our submission to the Amazon ML Challenge 2024. We secured 209th place out of around 75,000 participants from all over India and we ranked 9th across all Vellore Institute of Technology campuses.
+
 It demonstrates an approach to extract key product attributes (such as weight, dimensions, and volume) from images using advanced OCR (Optical Character Recognition) techniques, entity extraction, and unit normalization.
 
 ## **Overview**
