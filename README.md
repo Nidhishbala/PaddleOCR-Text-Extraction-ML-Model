@@ -16,4 +16,6 @@ The solution focuses on:
 - **Entity Extraction**: Regular expressions are employed to extract product attributes such as weight, height, width, depth, voltage, and volume.
 - **Unit Normalization**: The extracted units are standardized using a predefined unit conversion map.
 ## **Dataset**
-The input dataset is a CSV file containing image URLs and expected entity names (e.g., `item_weight`, `item_volume`,`wattage` etc.). The script processes each image, extracts relevant text, and matches it to the specified entity.
+The input dataset is a CSV file containing image URLs and expected entity names (e.g., `item_weight`, `item_volume`,`wattage` etc.). The script processes each image, extracts relevant text, and matches it to the specified entity. The datasets we used for the final submission are placed inside the `test_datasets` folder. 
+
+**NOTE: The datasets contain a large amount of data, and will take anywhere from 4 to 9 hours to successfully compile. Also make sure you turn on GPU T4 X2 while the compilation is in progress.**
