@@ -11,7 +11,7 @@ The solution focuses on:
 3.  Extracting product entities (like weight, volume, dimensions) using regular expressions.
 4.  Normalizing the extracted units to ensure consistency.
 ## **Features**
-1. **Image Preprocessing**: Sharpness adjustment, rescaling, and resizing to improve OCR accuracy.
+- **Image Preprocessing**: Sharpness adjustment, rescaling, and resizing to improve OCR accuracy.
 2. **OCR Detection**: PaddleOCR is used to extract text from images, ensuring accurate text detection even from complex images.
 3. **Entity Extraction**: Regular expressions are employed to extract product attributes such as weight, height, width, depth, voltage, and volume.
 4. **Unit Normalization**: The extracted units are standardized using a predefined unit conversion map.
