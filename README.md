@@ -1,7 +1,9 @@
 # **Product Entity Text Extraction from Images**
-This project was our submission to the **Amazon ML Challenge 2024**. We secured [209th](https://unstop.com/hackathons/amazon-ml-challenge-amazon-1100713/coding-challenge/200089) place out of around 75,000 participants from all over India and we ranked **9th** across all Vellore Institute of Technology campuses.
+## **About the Project**
+This project was our submission for the **Amazon ML Challenge 2024**. We secured [209th](https://unstop.com/hackathons/amazon-ml-challenge-amazon-1100713/coding-challenge/200089) place out of around 75,000 participants from all over India and we ranked **9th** across all Vellore Institute of Technology campuses.
 
 It demonstrates an approach to extract key product attributes (such as weight, dimensions, and volume) from images using advanced OCR (Optical Character Recognition) techniques, entity extraction, and unit normalization.
+We tested the model with around 130K (1.3 Lakh) images and obtained an F1-Score of 0.443 indicating good performance in predicting product attributes.
 
 ## **Overview**
 The solution focuses on:
@@ -39,7 +41,8 @@ After processing, the results are saved to a CSV file with columns:
 ## **Conclusion**
 This project demonstrates how effective image preprocessing and OCR can be for extracting meaningful product information from images, especially in e-commerce and other data-rich industries. It highlights the power of combining advanced image processing, machine learning, and rule-based approaches.  
 
-
+## **License**
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
 
 
