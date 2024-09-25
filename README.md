@@ -45,7 +45,7 @@ This project demonstrates how effective image preprocessing and OCR can be for e
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
 ## **Contact**
-- Allen Reji - [allenreji@gmail.com](mailto:allenreji@gmail.com)
+- Allen Reji - allenreji@gmail.com
 - Nathania Rachael - nathaniarachael@gmail.com
 - Nidhish Balasubramanya - nidhishbala3006@gmail.com
 - Jacob Cherian - jakecherian10@gmail.com
