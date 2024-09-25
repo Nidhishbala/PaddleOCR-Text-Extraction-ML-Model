@@ -15,4 +15,5 @@ The solution focuses on:
 - **OCR Detection**: PaddleOCR is used to extract text from images, ensuring accurate text detection even from complex images.
 - **Entity Extraction**: Regular expressions are employed to extract product attributes such as weight, height, width, depth, voltage, and volume.
 - **Unit Normalization**: The extracted units are standardized using a predefined unit conversion map.
-
+##**Dataset**
+The input dataset is a CSV file containing image URLs and expected entity names (e.g., 'item_weight', 'item_volume', etc.). The script processes each image, extracts relevant text, and matches it to the specified entity.
