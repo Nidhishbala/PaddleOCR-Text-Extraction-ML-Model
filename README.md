@@ -44,5 +44,6 @@ This project demonstrates how effective image preprocessing and OCR can be for e
 ## **License**
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
-
+## **Contact**
+- Allen Reji - allenreji@gmail.com
 
